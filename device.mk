@@ -339,7 +339,7 @@ PRODUCT_PACKAGES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.RMX2020
+    vendor.lineage.touch-service.RMX2020
 
 # Thermal
 PRODUCT_PACKAGES += \
