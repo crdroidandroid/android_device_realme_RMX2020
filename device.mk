@@ -371,7 +371,7 @@ PRODUCT_PACKAGES += \
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi-service-lazy
+    android.hardware.wifi-service
 
 PRODUCT_PACKAGES += \
     hostapd \
