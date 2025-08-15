@@ -2,11 +2,13 @@
     {
         "repository": "crdroidandroid/android_hardware_mediatek",
         "target_path": "hardware/mediatek",
+        "branch": "15.0-test",
         "remote": "crdroid"
     },
     {
         "repository": "crdroidandroid/android_device_mediatek_sepolicy_vndr",
         "target_path": "device/mediatek/sepolicy_vndr",
+        "branch": "15.0-test",
         "remote": "crdroid"
     },
     {
