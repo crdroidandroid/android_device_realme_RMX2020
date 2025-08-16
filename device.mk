@@ -66,6 +66,7 @@ TARGET_EXCLUDES_AUDIOFX := true
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth-service.mediatek \
+    libbluetoothhcihalimplmediatek.vendor \
     libbluetooth_audio_session
 
 # Bootanimation
