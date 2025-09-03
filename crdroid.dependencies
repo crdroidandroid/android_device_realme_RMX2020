@@ -20,8 +20,8 @@
         "target_path": "kernel/realme/RMX2020"
     },
     {
-        "repository": "crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r522817",
-        "target_path": "prebuilts/clang/host/linux-x86/clang-r522817",
+        "repository": "crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r547379",
+        "target_path": "prebuilts/clang/host/linux-x86/clang-r547379",
         "remote": "crdroid-gitlab"
     }
 ]
