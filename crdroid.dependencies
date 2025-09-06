@@ -1,33 +1,27 @@
 [
     {
         "repository": "crdroidandroid/android_hardware_mediatek",
-        "target_path": "hardware/mediatek",
-        "remote": "crdroid"
+        "target_path": "hardware/mediatek"
     },
     {
         "repository": "crdroidandroid/android_device_mediatek_sepolicy_vndr",
-        "target_path": "device/mediatek/sepolicy_vndr",
-        "remote": "crdroid"
+        "target_path": "device/mediatek/sepolicy_vndr"
     },
     {
         "repository": "crdroidandroid/android_vendor_realme_RMX2020",
-        "target_path": "vendor/realme/RMX2020",
-        "remote": "crdroid"
+        "target_path": "vendor/realme/RMX2020"
     },
     {
         "repository": "crdroidandroid/android_vendor_realme_RMX2020-ims",
-        "target_path": "vendor/realme/RMX2020-ims",
-        "remote": "crdroid"
+        "target_path": "vendor/realme/RMX2020-ims"
     },
     {
         "repository": "crdroidandroid/android_kernel_realme_RMX2020",
-        "target_path": "kernel/realme/RMX2020",
-        "remote": "crdroid"
+        "target_path": "kernel/realme/RMX2020"
     },
     {
         "repository": "crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r522817",
         "target_path": "prebuilts/clang/host/linux-x86/clang-r522817",
-        "clone-depth": "1",
         "remote": "crdroid-gitlab"
     }
 ]
