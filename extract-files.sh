@@ -94,6 +94,26 @@ function blob_fixup() {
             # evaluateCaptureConfiguration()
             sed -i "s/\x34\xE8\x87\x40\xB9/\x34\x28\x02\x80\x52/" "$2"
             ;;
+        vendor/lib*/libcameracustom.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --remove-needed "pascala_truly_main_s5kgm1sp_IdxMgr.so" "$2"
+            "${PATCHELF}" --remove-needed "pascala_hlt_front_s5k4h7_IdxMgr.so" "$2"
+            "${PATCHELF}" --remove-needed "pascala_shengtai_macro_ov02b10_IdxMgr.so" "$2"
+            "${PATCHELF}" --remove-needed "pascala_shengtai_wide_ov8856_IdxMgr.so" "$2"
+            "${PATCHELF}" --remove-needed "pascala_truly2_main_s5kgm1sp_IdxMgr.so" "$2"
+            "${PATCHELF}" --remove-needed "monetx_truly_main_s5kgm1sp_IdxMgr.so" "$2"
+            "${PATCHELF}" --remove-needed "monetx_ofilm_front_ov16a1q_IdxMgr.so" "$2"
+            "${PATCHELF}" --remove-needed "monetx_shengtai_wide_ov8856_IdxMgr.so" "$2"
+            "${PATCHELF}" --remove-needed "monetx_hlt_macro_gc2375h_IdxMgr.so" "$2"
+            "${PATCHELF}" --remove-needed "monetx_hlt_macro_gc2385_IdxMgr.so" "$2"
+            "${PATCHELF}" --remove-needed "monetx_hlt_depth_ov02a1b_IdxMgr.so" "$2"
+            "${PATCHELF}" --remove-needed "victor_s5k3p9sp_mipi_raw_IdxMgr.so" "$2"
+            "${PATCHELF}" --remove-needed "monetd_cxt_depth_gc2375h_IdxMgr.so" "$2"
+            "${PATCHELF}" --remove-needed "monetd_truly_main_ov12a10_IdxMgr.so" "$2"
+            "${PATCHELF}" --remove-needed "pascali_qtech_main_ov13b10_IdxMgr.so" "$2"
+            "${PATCHELF}" --remove-needed "pascali_hlt_front_s5k4h7_IdxMgr.so" "$2"
+            "${PATCHELF}" --remove-needed "pascali_hlt_depth_gc02m1b_IdxMgr.so" "$2"
+            ;;
         vendor/lib64/libwvhidl.so \
         |vendor/lib64/mediadrm/libwvdrmengine.so)
             [ "$2" = "" ] && return 0
