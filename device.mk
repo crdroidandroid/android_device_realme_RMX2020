@@ -187,10 +187,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(DEVICE_PATH)/configs/nfc/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay-lineage
-
 # Permissions
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml
@@ -297,6 +293,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlayRMX2020 \
     FingerprintResOverlayRMX2020 \
     FrameworksResOverlayRMX2020 \
+    LineageSDKOverlayRMX2020 \
     SettingsOverlayRMX2020 \
     SettingsProviderOverlayRMX2020 \
     SettingsProviderOverlayRMX2027 \
